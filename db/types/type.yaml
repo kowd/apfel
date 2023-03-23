@@ -1,0 +1,2 @@
+schema:
+  $ref: ../schemas/type.json

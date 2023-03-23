@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Describes a database type",
+    "title": "Type",
+    "type": "object",
+    "properties": {
+      "schema": {
+        "$ref": "https://json-schema.org/draft/2020-12/meta/core"
+       }
+    },
+    "required": ["schema"],
+    "unevaluatedProperties": false
+}

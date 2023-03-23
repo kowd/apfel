@@ -1,4 +1,7 @@
 ---
+title: WebDAV
+paginate: true
+_paginate: false
 marp: true
 headingDivider: 2
 ---

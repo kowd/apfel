@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Describes a Greco-Roman deity",
+    "title": "Deity",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The deity's Greek name."
+      },
+      "roman-name": {
+        "type": "string",
+        "description": "The deity's Roman name."
+      },
+      "attributes": {
+        "type": "string",
+        "description": "Description of the deity's functions and attributes."
+      }
+    },
+    "required": ["name"],
+    "unevaluatedProperties": false
+  }

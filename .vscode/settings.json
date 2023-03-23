@@ -1,0 +1,18 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "db/deities/**.json"
+            ],
+            "url": "/db/schemas/deity.json"
+        }
+    ],
+    "yaml.schemas": {
+        "db/schemas/deity.json": "/db/deities/**.yaml",
+        "db/schemas/type.json": "/db/types/**.yaml",
+    },
+    "yaml.yamlVersion": "1.2",
+    "yaml.validate": true,
+    "yaml.completion": true,
+    "yaml.disableAdditionalProperties": true
+}
